@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1),
+    rgba(224, 181, 224, 1),
+    rgba(8, 34, 137, 1),
+    rgba(6, 78, 166, 1),
+    rgba(0, 212, 255, 1)
+  );
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.loader {
+  display: none;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+.error {
+  display: none;
+  color: red;
+}
+
+.cat-info {
+  display: none;
+  margin-top: 20px;
+}
+
+.cat-info img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.info h2 {
+  margin-bottom: 5px;
+}
+
+.breed-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
